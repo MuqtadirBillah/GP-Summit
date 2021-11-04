@@ -1,0 +1,292 @@
+body{
+    overflow: hidden;
+    background-image: url("./back-original.jpg");
+    background-size: 100% 100%;
+    background-image: url("./back-original.jpg");
+    background-repeat: no-repeat;
+}
+input:focus{
+    outline: none;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.hide{
+    display: none;
+}
+
+/* section styling  */
+    .section{
+        /* min-height: 100vh;
+        background-size: 100% 100%;
+        background-image: url("./back-original.jpg");
+        background-repeat: no-repeat; */
+    }
+
+    polygon {
+        /* fill: rgba(255, 0, 0, 0.5); */
+        fill: rgba(255, 0, 0, 0);
+    }
+
+    .polygon-clickable {
+        cursor: pointer;
+    }
+
+    .polygon-clickable:hover {
+        /* fill: rgba(0, 0, 0, 0.2); */
+        fill: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .header-item{
+        
+    }
+    .header-item:hover{
+        cursor: pointer;
+    }
+    .header-item h2{
+        font-family: calibri;
+        font-weight: 900;
+    }
+   
+
+    /* form styling  */
+
+    .form-div{
+        z-index: 101;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        position: relative;
+        /* padding-top: 10vh; */
+        padding: 10vh 0;
+
+    }
+    .cross{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: xx-large;
+        color: white;
+    }
+    .cross:hover{
+        cursor: pointer;
+        color: rgb(230, 230, 230);
+    }
+    .signForm{
+        background-color: rgba(6, 27, 80, 0.8);
+        width: 40%;
+        margin: 0 auto;
+        border-top-left-radius: 50px;
+        padding-bottom: 50px;
+    }
+    .signForm .heading{
+        color: white;
+        padding-top: 0;
+        background-color: #001746;
+        /* background: linear-gradient(180deg, #001746 0%, rgba(137,140,147,0) 100%); */
+        border-top-left-radius: 50px;
+    }
+    .signForm .heading h4{
+        background: url("./secondary-back.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 10px 50px;
+    }
+    .formDiv{
+        padding: 0 50px;
+    }
+    .signForm .form-login{
+        color: white;
+        /* text-align: center; */
+        padding-top: 30px;
+    }
+    .signForm .form-login label{
+        color: white;
+        margin-right: 20px;
+    }
+    .loginBut{
+        text-align: right;
+    }
+    .loginBut button{
+        background-color: rgba(0, 0, 0, 0);
+        border: 1px solid rgba(0, 0, 0, 0);
+        background-image: url("./but-back.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color: white;
+        font-weight: 600;
+        padding: 0 30px;
+        margin-top: 10px;
+        font-size: large;
+    }
+    .loginBut button:hover{
+    }
+    .signForm input{
+        background-color: rgba(0, 0, 0, 0);
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-bottom: 2px solid #0094b0;
+        padding: 0 5px;
+        width: 100%;
+        color: white;
+    }
+
+    .question{
+        color: white;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    
+    .signForm .form-register{
+        color: white;
+        /* text-align: center; */
+        /* padding-top: 30px; */
+    }
+    .signForm .form-register label{
+        color: white;
+        margin-right: 20px;
+        /* margin-bottom: 20px; */
+    }
+    .signForm .form-register input{
+        background-color: rgba(0, 0, 0, 0);
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-bottom: 2px solid #0094b0;
+        padding: 0 5px;
+        width: 300px;
+        color: white;
+        /* margin-bottom: 20px; */
+        width: 100%;
+    }
+    .registerBut{
+        margin-bottom: 20px;
+    }
+    .registerBut button{
+        background-color: rgba(0, 0, 0, 0);
+        border: 0 solid rgba(0, 0, 0, 0);
+        background-image: url("./but-back.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color: white;
+        font-weight: 600;
+        padding: 0 20px;
+        margin-top: 10px;
+        font-size: large;
+    }
+
+    .signForm .terms{
+        margin-top: 10px;
+    }
+    .signForm .terms .checkIn{
+        width: auto;
+    }
+    .signForm .terms{
+        color: white;
+        text-align: left;
+    }
+
+    
+/* section styling  */
+
+/* warning styling  */
+
+.warning{
+    height: 100vh;
+    display: none;
+}
+.warning img{
+    border-radius: 30px;
+    width: 100%;
+}
+
+/* warning styling  */
+
+/* Media queries  */
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    
+    .navbar-dark .navbar-nav{
+        padding: 10px 0;
+    }
+    
+    .navbar-collapse{
+        margin-top: 50px;
+        margin-left: 20px;
+        background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(137,140,147,1) 100%);
+    }
+    .navbar-dark .navbar-nav .loginBut{
+        background-color: #dfb1d1;
+        border-radius: 5px;
+        margin: 0 10px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .navbar-dark .navbar-brand .brand-img{
+        height: 50px;
+        width: 30%;
+    }
+}
+
+/* checking height  */
+/* @media only screen and (max-height: 899px), (max-width: 1439px) { */
+/* @media only screen and (max-height: 899px) {
+
+    .section{
+        display: none;
+    }
+    .warning{
+        height: 100vh;
+        display: none;
+        visibility: hi;
+    }
+} */
+
+
+@media only screen and (max-width: 768px) {
+/* @media only screen and (min-aspect-ratio: 6/5) { */
+
+    body{
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .section{
+        display: none;
+    }
+    .warning{
+        height: 100vh;
+        display: none;
+        visibility: hi;
+    }
+}
+@media only screen and (max-width: 1225px) and  (max-width: 1366px) {
+/* @media only screen and (min-aspect-ratio: 6/5) { */
+
+    body{
+        background: rgba(0, 0, 0, 0);
+    }
+
+    .section{
+        display: none;
+    }
+    .warning{
+        height: 100vh;
+        display: none;
+        visibility: hi;
+    }
+}
+
+
+/* Media queries  */
